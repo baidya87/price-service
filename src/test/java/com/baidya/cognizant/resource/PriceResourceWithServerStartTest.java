@@ -13,7 +13,7 @@ public class PriceResourceWithServerStartTest {
 
     @Test
     public void testWelcome(){
-        Assertions.assertThat(this.testRestTemplate.getForObject("/prices/test", String.class)).contains("Welcome ^^ test!");
+        Assertions.assertThat(this.testRestTemplate.getForObject("/prices/test", String.class)).contains("Welcome test!");
 
     }
 }
